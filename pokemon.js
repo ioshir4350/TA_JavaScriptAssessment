@@ -11,7 +11,7 @@ class Pokemon {
   
     takeDamage = function(amt_of_damage) {
          this.health -= amt_of_damage;
-         if (this.health < 1)
+         if (this.health < 0)
          {
              this.health = 0;
          }
